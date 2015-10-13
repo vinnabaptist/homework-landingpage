@@ -40,11 +40,8 @@ Developer @GA in MEL
 
 body {
      color: #000;
-     font-size: 12px;
      line-height: 1.4;
      font-family: "Open Sans", sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
 }
 
 
@@ -60,56 +57,164 @@ body {
 
 }
 
-header {}
+.visually-hidden { 
+   position: absolute; 
+   overflow: hidden; 
+   clip: rect(1px 1px 1px 1px); 
+   height: 1px;
+   width: 1px;
+}
 
-footer {}
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top;
+  height: 700px;
+  background-size: cover;
+}
+
+footer {
+  display: block;
+  background-color: #121212;
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-weight: 600;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 h1 {
-  font-size: 40pt;
+  font-size: 48px;
   font-weight: 600;
   color: white;
-  margin: 100px 0 0 70px;
   text-align: center;
+  padding-top: 120px;
 }
 
 h2 {
   font-size: 40px;
-  margin: 30px 0 0 70px;
-  color: black;
+  margin: 30px 0 0 80px;
+  color: #033048;
   font-weight: 600;
+  padding: 30px 0;
 }
 
-.headerlogo {
-  margin: 40px 0 0 70px;
+.logowhite {
+  width: 200px;
+  margin: 50px 0 0 90px;
 }
 
 .get {
   border-radius: 5px;
   background-color: #f9e42e;
-  font-size: 28px;
-  font-weight: bolder;
   margin: auto;
-  width: 200px;
+  margin-top: 70px;
+  width: 250px;
   padding: 10px 30px;
+  text-align: center;
 }
 
-.topbanner {
-  float: left;
-  width: 100%;
-  height: 50%;
-  margin: auto;
-  background-image:"images/header_bg.jpg";
+a.grey:link {
+  color: #606161; 
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 28px;
 }
 
 .benefits {
-  float: left;
+  float:left;
   width: 100%;
+  height: 480px;
   margin: auto;
-  height: 500px;
-  color: #f0efef;
+  background-color: #f0efef;
 }
 
+ul {
+  font-weight: 100;
+  font-size: 26px;
+  margin-left: 150px;
+  width: 50%;
+  list-style: disc;
+}
+
+p {
+  font-size: 26px;
+  font-weight: 300;
+  width: 50%;
+  margin-left: 80px;
+  padding-bottom: 20px;
+}
+
+.quote {
+  float: left;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  height: 500px;
+  background-size: cover;
+  font-weight: 100px;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  padding: 100px 340px;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.client-name {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.signup {
+  display: block;
+  background: #f9e42e;
+  width: 100%;
+  height: 170px;
+  padding-top: 60px;
+}
+
+.signup-button {
+  border-radius: 5px;
+  background-color: #033048;
+  font-color: white;
+  padding: 20px 30px;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  padding: 10px 30px;
+  font-size: 24px;
+  text-transform: bolder;
+}
+
+a.white:link {
+  color: white; 
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.socialmedia {
+  padding: 50px;
+  margin: auto;
+}
+
+.logoyellow {
+  padding-top: 80px;
+}
+
+h4 {
+  padding-top: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.social-media {
+  display: block;
+}
