@@ -152,6 +152,10 @@ p {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+a:hover {
+  color: #ff8000;
+}
+
 .visually-hidden { 
    position: absolute; 
    overflow: hidden; 
