@@ -1,0 +1,246 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Clearfix: contain floats */
+.group:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.alignright {
+    float: right;
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left;
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: black;
+    font-size: 26px;
+    line-height: 1.4;
+    background: #f0efef;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+header {
+  display: block;
+  height: 120px;
+  background: #033048;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  display: block;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: center;
+  background-color: #121212;
+}
+
+article {
+    margin-bottom: 30px;
+    padding-bottom: 90px;
+    border-bottom: 2px solid #7e7e7e;
+}
+
+.blog-column {
+    float:left;
+    width:73%;
+}
+
+.sidebar {
+    float: right;
+    width: 25%;
+}
+
+.about {
+    float: right;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+h3 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.4;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h2 {
+    color: #033048;
+    font-size: 32px;
+    padding: 50px 0 10px 0;
+    font-weight: 800;
+}
+
+h4 {
+  padding-top: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  width: 100%;
+  color: #7e7e7e;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.first-letter {
+  float: left;
+  color: #7e7e7e;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 10px 10px 10px 0;
+}
+
+.learn-more {
+    color: #033048;
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.visually-hidden { 
+   position: absolute; 
+   overflow: hidden; 
+   clip: rect(1px 1px 1px 1px); 
+   height: 1px;
+   width: 1px;
+}
+
+li {
+    float: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+li a {
+    display: block;
+    color: #f9e42e;
+    text-align: left;
+    text-decoration: none;
+    padding: 40px 40px 0 10px;
+}
+
+.categories {
+    padding: 5px 70px 0 0;
+    color: #033048;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.aboutrelaxr {
+    color: #033048;
+    line-height: 1.2;
+}
+
+.main {
+    float:right;
+}
+
+.header-logo {
+    padding: 40px 30px 0 0;
+    float: left;
+}
+
+.read-more {
+    float: right;
+    color: #033048;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.signup {
+  width: 100%;
+  height: 170px;
+  display: block;
+  padding-top: 60px;
+  overflow: hidden;
+  background: #f9e42e;
+}
+
+.signup-button {
+  margin: auto;
+  color: white;
+  width: 300px;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 20px 30px;
+  text-align: center;
+  padding: 10px 30px;
+  background-color: #033048;
+}
+
+a.white:link {
+  font-size: 24px;
+  color: white; 
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.social-icons {
+  padding: 50px;
+  margin: auto;
+}
+
+.logoyellow {
+  padding-top: 80px;
+}
+
+.social-media {
+  display: block;
+}
